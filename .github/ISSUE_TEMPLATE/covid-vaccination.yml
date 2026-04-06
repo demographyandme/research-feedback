@@ -1,0 +1,23 @@
+name: "COVID-19 vaccination & age reporting, Brazil"
+description: "Question about the vaccination age-reporting study, R scripts, or data."
+labels: ["project: covid-datasus-vacina"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Data or variables
+        - R scripts
+        - Methodology
+        - Figures
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "Describe your question or issue."
+    validations:
+      required: true

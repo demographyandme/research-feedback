@@ -1,0 +1,11 @@
+name: "General question"
+description: "Question that does not fit a specific project."
+labels: ["project: general"]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "Describe your question or issue."
+    validations:
+      required: true
