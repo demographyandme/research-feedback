@@ -1,0 +1,23 @@
+name: "World population aging"
+description: "Question about the population aging companion, PHE indicators, interactive table, or data."
+labels: ["project: world-population-aging"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Data or variables
+        - Interactive table
+        - Methodology
+        - Figures
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "Describe your question or issue."
+    validations:
+      required: true
