@@ -12,7 +12,8 @@ Open an [issue](https://github.com/demographyandme/research-feedback/issues/new/
 |---------|-----------|
 | Migration estimates, Brazil 1960–1980 | [demographyandme.github.io/migration-60-70-80](https://demographyandme.github.io/migration-60-70-80/) |
 | COVID-19 vaccination & age reporting, Brazil | [demographyandme.github.io/covid-19-datasus-vaccine](https://demographyandme.github.io/covid-19-datasus-vaccine/) |
-| Demographic transition in Brazil | [demographyandme.github.io/chapter-transition-brazil](https://demographyandme.github.io/chapter-transition-brazil/) |
+| Demographic transition in Brazil | [demographyandme.github.io/2026-chapter-transition-brazil](https://demographyandme.github.io/2026-chapter-transition-brazil/) |
+| World population aging | [demographyandme.github.io/2023-world-population-aging](https://demographyandme.github.io/2023-world-population-aging/) |
 
 ## License
 
