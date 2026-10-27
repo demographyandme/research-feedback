@@ -1,0 +1,22 @@
+name: "WPP total fertility, edition by edition"
+description: "Question about the WPP fertility revisions piece, its editions, the data, or the viewer."
+labels: ["project: wpp-fertility-revisions"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Data or sources
+        - Methodology
+        - Interactive viewer
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "Describe your question or issue."
+    validations:
+      required: true

@@ -1,0 +1,22 @@
+name: "Demographic transition in Brazil"
+description: "Question about the demographic transition chapter, census benchmarks, projections, or figures."
+labels: ["project: 2026-chapter-transition-brazil"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Data or variables
+        - Methodology
+        - Figures
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "Describe your question or issue."
+    validations:
+      required: true
