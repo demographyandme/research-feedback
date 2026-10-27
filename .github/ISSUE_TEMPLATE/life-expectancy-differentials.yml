@@ -1,0 +1,22 @@
+name: "Explaining the differences in life expectancies"
+description: "Question about the age decomposition piece, its life tables, the method, or the viewer."
+labels: ["project: life-expectancy-differentials"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Data or sources
+        - Methodology
+        - Interactive viewer
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "Describe your question or issue."
+    validations:
+      required: true

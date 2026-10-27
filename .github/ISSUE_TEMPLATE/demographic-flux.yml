@@ -1,0 +1,22 @@
+name: "Demographic Flux"
+description: "Question about the Demographic Flux piece, its country profiles, the projection model, or the viewer."
+labels: ["project: demographic-flux"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Data or sources
+        - Methodology
+        - Interactive viewer
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "Describe your question or issue."
+    validations:
+      required: true

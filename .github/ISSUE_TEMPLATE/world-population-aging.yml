@@ -1,6 +1,6 @@
-name: "World population aging"
+name: "World population aging as a function of period demographic conditions"
 description: "Question about the population aging companion, PHE indicators, interactive table, or data."
-labels: ["project: world-population-aging"]
+labels: ["project: 2023-world-population-aging"]
 body:
   - type: dropdown
     id: topic
