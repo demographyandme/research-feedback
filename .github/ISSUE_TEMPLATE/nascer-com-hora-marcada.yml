@@ -1,0 +1,22 @@
+name: "Nascer com hora marcada"
+description: "Dúvida sobre Nascer com hora marcada: os dados, o método ou a visualização."
+labels: ["project: nascer-com-hora-marcada"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Assunto
+      options:
+        - Dados ou fontes
+        - Método
+        - Visualização interativa
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Detalhes
+      description: "Descreva a sua dúvida ou o problema."
+    validations:
+      required: true
